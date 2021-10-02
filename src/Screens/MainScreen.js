@@ -25,8 +25,6 @@ const MainScreen = () => {
     console.log(taskItems);
   }, []);
 
-  console.log(taskItems);
-
   //to add to the array
   const addTask = () => {
     console.log(taskItems.indexOf(term));
